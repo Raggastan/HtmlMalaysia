@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Wesh Alors</title>
+    </head>
+    <body>
+   <script>
+       function askInts()
+       {
+           var int1;
+           var int2;
+           int1 = prompt("Please enter a first int", "Do it now");
+           int2 = prompt("Please enter a second int","Do it now");
+           int1 = parseInt(int1);
+           int2 = parseInt(int2);
+       }
+       function add()
+       {
+           return int1+int2;
+       }
+       function sub()
+       {
+           return int1-int2;
+       }
+       function mul()
+       {
+           return int1*int2;
+       }
+       function div()
+       {
+           return int1/int2;
+       }
+       askInts();
+        document.write(int1 + " + " + int2 + " = " + add());
+        document.write(int1 + " - " + int2 + " = " + sub());
+        document.write(int1 + " * " + int2 + " = " + mul());
+        document.write(int1 + " / " + int2 + " = " + div());
+   </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
